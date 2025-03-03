@@ -1,10 +1,10 @@
 import React from "react";
 import IllustrationProposal from "/Users/taniya/Desktop/Dev/fin/fin/src/assets/IllustrationProposal.svg";
 
-const Things: React.FC = () => {
+const ProposalCard: React.FC = () => {
   return (
-    <section className="mt-20 mb-30 flex justify-center">
-      <div className="flex items-center justify-between w-full max-w-5xl bg-gray-100 rounded-3xl p-10 relative">
+    <section className="w-full mb-30 flex justify-center">
+      <div className="flex items-center justify-between bg-gray-100 rounded-3xl p-10 relative">
         {/* Left Content */}
         <div className="max-w-md">
           <h3 className="text-2xl font-semibold text-gray-900">
@@ -30,4 +30,4 @@ const Things: React.FC = () => {
   );
 };
 
-export default Things;
+export default ProposalCard;

@@ -13,7 +13,7 @@ const caseStudies = [
   },
 ];
 
-const BlackCard: React.FC = () => {
+const CaseStudiesCarousel: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleNext = () => {
@@ -78,4 +78,4 @@ const BlackCard: React.FC = () => {
   );
 };
 
-export default BlackCard;
+export default CaseStudiesCarousel;
